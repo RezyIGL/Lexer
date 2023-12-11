@@ -95,7 +95,7 @@ std::map<int, std::vector<E>> LexemFSM = {
 				    {"", false, false, -1, "error", true}
 		    }},
 		{17, {
-				    {"", true, false, 0, "char"}
+				    {"", false, false, 0, "char"}
 		    }},
 		{18, {
 				    {"\"", false, false, 20, ""},
