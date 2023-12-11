@@ -16,4 +16,6 @@ struct E {
 
 std::map<int, std::vector<E>> getGraph();
 
+extern std::map<int, std::vector<E>> LexemFSM;
+
 #endif //LEXER_LEXGRAPH_H

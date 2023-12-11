@@ -11,4 +11,6 @@ int main() {
 		std::cout << "[" << lexem.first << ", \"" << lexem.second << "\"]" << std::endl;
 		if (lexem.first == "error") break;
 	}
+//	lexem = lexer.getNextLexem();
+//	std::cout << "[" << lexem.first << ", \"" << lexem.second << "\"]" << std::endl;
 }
